@@ -1,4 +1,4 @@
-package kz.sdu.hackernewsclient;
+package kz.sdu.hackernewsclient.Model;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;

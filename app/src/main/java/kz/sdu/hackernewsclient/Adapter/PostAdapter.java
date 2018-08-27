@@ -1,22 +1,21 @@
-package kz.sdu.hackernewsclient;
+package kz.sdu.hackernewsclient.Adapter;
 
-import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+
+import kz.sdu.hackernewsclient.UI.CommentsActivity;
+import kz.sdu.hackernewsclient.Model.Post;
+import kz.sdu.hackernewsclient.UI.PostWebActivity;
+import kz.sdu.hackernewsclient.R;
 
 public class PostAdapter extends RecyclerView.Adapter<PostAdapter.MyViewHolder> {
     private ArrayList<Post> list;

@@ -1,8 +1,10 @@
-package kz.sdu.hackernewsclient;
+package kz.sdu.hackernewsclient.UI;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebView;
+
+import kz.sdu.hackernewsclient.R;
 
 public class PostWebActivity extends AppCompatActivity {
 

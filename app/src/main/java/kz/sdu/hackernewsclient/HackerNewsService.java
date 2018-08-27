@@ -2,6 +2,8 @@ package kz.sdu.hackernewsclient;
 
 import java.util.List;
 
+import kz.sdu.hackernewsclient.Model.Comment;
+import kz.sdu.hackernewsclient.Model.Post;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;

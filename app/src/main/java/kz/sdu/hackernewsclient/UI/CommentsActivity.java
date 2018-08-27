@@ -1,4 +1,4 @@
-package kz.sdu.hackernewsclient;
+package kz.sdu.hackernewsclient.UI;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,8 +7,12 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 
 import java.util.ArrayList;
-import java.util.List;
 
+import kz.sdu.hackernewsclient.Adapter.CommentAdapter;
+import kz.sdu.hackernewsclient.ApiHelper;
+import kz.sdu.hackernewsclient.Model.Comment;
+import kz.sdu.hackernewsclient.Model.Post;
+import kz.sdu.hackernewsclient.R;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
